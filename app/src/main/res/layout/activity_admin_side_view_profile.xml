@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_side_view_profile">
+
+    <ImageView
+        android:id="@+id/imageView_profile"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_person_black"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="yourname"
+        android:textColor="#000"
+        android:layout_below="@+id/imageView_profile"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:hint="Admin"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="normal" />
+    <ImageView
+        android:id="@+id/imageView_pic"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_wave_3"
+        android:layout_below="@id/desc"
+        android:layout_marginTop="-0dp"
+
+        />
+
+    <EditText
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView_pic"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:drawableStart="@drawable/ic_edit"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Edit Profile" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/back"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:drawablePadding="16dp"
+
+        android:drawableStart="@drawable/ic_email1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="16dp"
+        android:text="my@email.com" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText12"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginRight="102dp"
+        android:drawablePadding="16dp"
+        android:drawableStart="@drawable/ic_phone_android_black_24dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="My Phone number" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText13"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="170dp"
+        android:layout_marginRight="170dp"
+        android:background="@drawable/round_gray_bt"
+        android:drawableStart="@drawable/ic_log_out"
+        android:text="Log Out" />
+
+
+</RelativeLayout>

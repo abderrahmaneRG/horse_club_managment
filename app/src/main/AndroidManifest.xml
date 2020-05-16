@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myhouseclub" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name=".Manage_session" >
+        </activity>
+        <activity android:name=".manage_users" />
+        <activity android:name=".session_managment" />
+        <activity android:name=".User_Managment" />
+        <activity android:name=".Seting_managment_users" />
+        <activity android:name=".view_session_details" />
+        <activity android:name=".Admin_side_view_profile" />
+        <activity android:name=".Monitor_view_profile" />
+        <activity android:name=".Monitor_vieuw_profile" />
+        <activity android:name=".clientProfile" />
+        <activity android:name=".modifie_session_admin" />
+        <activity android:name=".add_session_admin" />
+        <activity android:name=".Add_user_admin" />
+        <activity android:name=".Edit_user_Admin" />
+        <activity android:name=".MY_LOGIN" />
+        <activity android:name=".MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
